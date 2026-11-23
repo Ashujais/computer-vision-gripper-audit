@@ -1,0 +1,9 @@
+priority,action_item,rationale,target_owner,risk_addressed
+P0,Halt marker-based pose estimation pipeline until markered gripper dataset is acquired,"Dataset flaps completely lack fiducial markers, 2D annotations, and camera calibration. Model development is physically impossible on this dataset.",Technical Project Lead / Hardware Lead,"RISK-01, RISK-02, RISK-08"
+P0,Perform multi-camera intrinsic and hand-eye extrinsic calibration,"3D pose estimation requires K matrix, lens distortion coefficients, and T_cam_gripper.",Robotics Calibration Lead,RISK-05
+P0,Purge conflicting duplicate chunk file-001.parquet and fix index metadata,Conflicting duplicate episodes 30-59 corrupt data loading and model training.,Data Ops Lead,RISK-04
+P1,Ingest raw full-resolution video streams (1080p/4K) from upstream source,224x224 resolution is inadequate for precise fiducial marker corner localization.,Computer Vision Lead,RISK-03
+P1,Implement episode-stratified train/val/test splits (70/15/15),Prevents catastrophic data leakage caused by naive random frame splitting.,Machine Learning Researcher,RISK-07
+P1,Fix video chunk timestamp reset at episode 344,Normalizes multi-view camera0 and camera1 timestamps across chunk splits.,Software Engineering Lead,RISK-06
+P2,Apply kinematic trajectory smoothing to remove SLAM tracking jumps,Filters out 310 tracking spikes (>2.5 m/s) to ensure clean kinematic supervision.,Robotics Engineer,RISK-10
+P2,Augment closed-gripper demonstration coverage,Improves representation of fully-closed grasp configurations (<5mm).,Data Collection Lead,RISK-09

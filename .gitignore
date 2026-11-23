@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and temporary folders
+.pytest_cache/
+.ipynb_checkpoints/
+temp_inspect/
+*.log
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large Raw Video Data (>100MB exceeds GitHub hard limit)
+*.mp4
+*.avi
+*.mov
+mv-umi-markers-placement/videos/
+mv-umi-markers-placement/.cache/
+
+# OS-specific
+.DS_Store
+Thumbs.db

@@ -1,0 +1,3 @@
+group_id,duplicate_type,sample_count,episodes_involved,is_cross_episode,primary_hash,frame_ids,recommended_action
+PERCEPTUAL_DUP_0000,PERCEPTUAL_PHASH_MATCH,2,"[18, 136]",True,953e48e2cb851f9a,"['ep018_c0_f0062', 'ep136_c0_f0052']",Temporal subsampling recommended to reduce redundancy
+PERCEPTUAL_DUP_0001,PERCEPTUAL_PHASH_MATCH,2,"[214, 234]",True,858f55324be54fc4,"['ep214_c0_f0264', 'ep234_c0_f0200']",Temporal subsampling recommended to reduce redundancy

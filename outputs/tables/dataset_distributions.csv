@@ -1,0 +1,11 @@
+category,bin_label,count,percentage
+Gripper Opening State,Medium (15-25mm),87640,47.33
+Gripper Opening State,Wide (25-30mm),46606,25.17
+Gripper Opening State,Fully Open (>30mm),25774,13.92
+Gripper Opening State,Narrow (5-15mm),25113,13.56
+Gripper Opening State,Fully Closed (<5mm),25,0.01
+Episode Length,10-13.3s (300-400),215,47.68
+Episode Length,13.3-16.7s (400-500),130,28.7
+Episode Length,16.7-20s (500-600),55,12.36
+Episode Length,<10s (<300 frames),35,7.73
+Episode Length,>20s (>600),15,3.53

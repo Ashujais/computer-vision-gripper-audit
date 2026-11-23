@@ -1,0 +1,10 @@
+metric,value
+Gripper Width Min (mm),4.13
+Gripper Width Max (mm),34.06
+Gripper Width Mean (mm),22.03
+Max Linear Velocity (m/s),58.115
+Mean Linear Velocity (m/s),0.142
+Max Angular Velocity (rad/s),8.901
+Position Spikes (>2.5 m/s),310.0
+Rotation Spikes (>10 rad/s),0.0
+Gripper Spikes (>0.25 m/s),13.0

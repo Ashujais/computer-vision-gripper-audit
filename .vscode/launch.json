@@ -1,0 +1,50 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "1. Run Full Audit Pipeline",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/gripper_dataset_audit/src/audit_pipeline.py",
+            "args": [
+                "--dataset", "mv-umi-markers-placement",
+                "--output", "outputs",
+                "--config", "gripper_dataset_audit/config/audit_config.yaml"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "2. Run Streamlit Dashboard",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "${workspaceFolder}/gripper_dataset_audit/src/dashboard.py",
+                "--server.port", "8501"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "3. Run Unit Tests",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "unittest",
+            "args": [
+                "gripper_dataset_audit/tests/test_audit_suite.py"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "4. Generate Reports & PDF",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/gripper_dataset_audit/src/report_generator.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

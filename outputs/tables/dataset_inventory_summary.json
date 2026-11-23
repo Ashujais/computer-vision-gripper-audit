@@ -1,0 +1,113 @@
+{
+  "dataset_name": "mv-umi-markers-placement",
+  "root_path": "mv-umi-markers-placement",
+  "format": "LeRobot v3 Parquet + MP4 Video Streams",
+  "total_files": 31,
+  "total_storage_mb": 481.2,
+  "total_storage_gb": 0.47,
+  "extension_counts": {
+    "[no_ext]": 2,
+    ".md": 1,
+    ".json": 4,
+    ".parquet": 5,
+    ".tag": 1,
+    ".metadata": 14,
+    ".mp4": 4
+  },
+  "total_episodes_in_primary_manifest": 453,
+  "total_episodes_in_secondary_manifest": 30,
+  "total_frames_in_data0": 185158,
+  "total_frames_in_data1": 15386,
+  "total_frames_across_ep0": 185158,
+  "data_schema_columns": [
+    "observation.state",
+    "action",
+    "timestamp",
+    "frame_index",
+    "episode_index",
+    "index",
+    "task_index"
+  ],
+  "tasks": [
+    {
+      "task_index": 0
+    }
+  ],
+  "video_streams": [
+    {
+      "path": "videos\\observation.images.camera0_rgb\\chunk-000\\file-000.mp4",
+      "camera_stream": "observation.images.camera0_rgb",
+      "chunk": "chunk-000",
+      "file_name": "file-000.mp4",
+      "frame_count": 142472,
+      "width": 224,
+      "height": 224,
+      "aspect_ratio": 1.0,
+      "fps": 30.0,
+      "fourcc": "h264",
+      "size_mb": 199.58
+    },
+    {
+      "path": "videos\\observation.images.camera0_rgb\\chunk-000\\file-001.mp4",
+      "camera_stream": "observation.images.camera0_rgb",
+      "chunk": "chunk-000",
+      "file_name": "file-001.mp4",
+      "frame_count": 42686,
+      "width": 224,
+      "height": 224,
+      "aspect_ratio": 1.0,
+      "fps": 30.0,
+      "fourcc": "h264",
+      "size_mb": 58.17
+    },
+    {
+      "path": "videos\\observation.images.camera1_rgb\\chunk-000\\file-000.mp4",
+      "camera_stream": "observation.images.camera1_rgb",
+      "chunk": "chunk-000",
+      "file_name": "file-000.mp4",
+      "frame_count": 185158,
+      "width": 224,
+      "height": 224,
+      "aspect_ratio": 1.0,
+      "fps": 30.0,
+      "fourcc": "h264",
+      "size_mb": 172.7
+    },
+    {
+      "path": "videos\\observation.images.camera1_rgb\\chunk-000\\file-001.mp4",
+      "camera_stream": "observation.images.camera1_rgb",
+      "chunk": "chunk-000",
+      "file_name": "file-001.mp4",
+      "frame_count": 15386,
+      "width": 224,
+      "height": 224,
+      "aspect_ratio": 1.0,
+      "fps": 30.0,
+      "fourcc": "AV01",
+      "size_mb": 30.24
+    }
+  ],
+  "cameras": [
+    "observation.images.camera0_rgb",
+    "observation.images.camera1_rgb"
+  ],
+  "resolutions": [
+    "224x224"
+  ],
+  "codebase_version": "v3.0",
+  "fps": 30,
+  "splits": {
+    "train": "0:453"
+  },
+  "features_summary": [
+    "observation.state",
+    "action",
+    "observation.images.camera0_rgb",
+    "observation.images.camera1_rgb",
+    "timestamp",
+    "frame_index",
+    "episode_index",
+    "index",
+    "task_index"
+  ]
+}

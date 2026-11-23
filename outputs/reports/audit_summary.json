@@ -1,0 +1,369 @@
+{
+  "inventory": {
+    "dataset_name": "mv-umi-markers-placement",
+    "root_path": "mv-umi-markers-placement",
+    "format": "LeRobot v3 Parquet + MP4 Video Streams",
+    "total_files": 31,
+    "total_storage_mb": 481.2,
+    "total_storage_gb": 0.47,
+    "extension_counts": {
+      "[no_ext]": 2,
+      ".md": 1,
+      ".json": 4,
+      ".parquet": 5,
+      ".tag": 1,
+      ".metadata": 14,
+      ".mp4": 4
+    },
+    "total_episodes_in_primary_manifest": 453,
+    "total_episodes_in_secondary_manifest": 30,
+    "total_frames_in_data0": 185158,
+    "total_frames_in_data1": 15386,
+    "total_frames_across_ep0": 185158,
+    "data_schema_columns": [
+      "observation.state",
+      "action",
+      "timestamp",
+      "frame_index",
+      "episode_index",
+      "index",
+      "task_index"
+    ],
+    "tasks": [
+      {
+        "task_index": 0
+      }
+    ],
+    "video_streams": [
+      {
+        "path": "videos\\observation.images.camera0_rgb\\chunk-000\\file-000.mp4",
+        "camera_stream": "observation.images.camera0_rgb",
+        "chunk": "chunk-000",
+        "file_name": "file-000.mp4",
+        "frame_count": 142472,
+        "width": 224,
+        "height": 224,
+        "aspect_ratio": 1.0,
+        "fps": 30.0,
+        "fourcc": "h264",
+        "size_mb": 199.58
+      },
+      {
+        "path": "videos\\observation.images.camera0_rgb\\chunk-000\\file-001.mp4",
+        "camera_stream": "observation.images.camera0_rgb",
+        "chunk": "chunk-000",
+        "file_name": "file-001.mp4",
+        "frame_count": 42686,
+        "width": 224,
+        "height": 224,
+        "aspect_ratio": 1.0,
+        "fps": 30.0,
+        "fourcc": "h264",
+        "size_mb": 58.17
+      },
+      {
+        "path": "videos\\observation.images.camera1_rgb\\chunk-000\\file-000.mp4",
+        "camera_stream": "observation.images.camera1_rgb",
+        "chunk": "chunk-000",
+        "file_name": "file-000.mp4",
+        "frame_count": 185158,
+        "width": 224,
+        "height": 224,
+        "aspect_ratio": 1.0,
+        "fps": 30.0,
+        "fourcc": "h264",
+        "size_mb": 172.7
+      },
+      {
+        "path": "videos\\observation.images.camera1_rgb\\chunk-000\\file-001.mp4",
+        "camera_stream": "observation.images.camera1_rgb",
+        "chunk": "chunk-000",
+        "file_name": "file-001.mp4",
+        "frame_count": 15386,
+        "width": 224,
+        "height": 224,
+        "aspect_ratio": 1.0,
+        "fps": 30.0,
+        "fourcc": "AV01",
+        "size_mb": 30.24
+      }
+    ],
+    "cameras": [
+      "observation.images.camera0_rgb",
+      "observation.images.camera1_rgb"
+    ],
+    "resolutions": [
+      "224x224"
+    ],
+    "codebase_version": "v3.0",
+    "fps": 30,
+    "splits": {
+      "train": "0:453"
+    },
+    "features_summary": [
+      "observation.state",
+      "action",
+      "observation.images.camera0_rgb",
+      "observation.images.camera1_rgb",
+      "timestamp",
+      "frame_index",
+      "episode_index",
+      "index",
+      "task_index"
+    ]
+  },
+  "integrity_defects_count": 6,
+  "annotation_summary": {
+    "total_annotated_frames": 185158,
+    "vision_annotations_available": false,
+    "official_evaluation_status": "Annotation accuracy cannot be directly evaluated because ground-truth vision annotations are unavailable.",
+    "is_action_fallback_duplicate": true,
+    "state_dimensions": [
+      "pos_x",
+      "pos_y",
+      "pos_z",
+      "rot_x",
+      "rot_y",
+      "rot_z",
+      "gripper_width"
+    ],
+    "state_statistics": {
+      "pos_x": {
+        "min": -1.99228,
+        "max": 1.33111,
+        "mean": 0.00892,
+        "std": 0.2413,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "pos_y": {
+        "min": -0.73809,
+        "max": 1.51325,
+        "mean": -0.01908,
+        "std": 0.14561,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "pos_z": {
+        "min": -0.16118,
+        "max": 0.54423,
+        "mean": 0.05841,
+        "std": 0.09913,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "rot_x": {
+        "min": -3.13875,
+        "max": 3.13849,
+        "mean": -2.42857,
+        "std": 0.33504,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "rot_y": {
+        "min": -1.86657,
+        "max": 2.00396,
+        "mean": 0.04048,
+        "std": 0.47276,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "rot_z": {
+        "min": -1.03241,
+        "max": 0.79512,
+        "mean": 0.01017,
+        "std": 0.22778,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "gripper_width": {
+        "min": 0.00413,
+        "max": 0.03406,
+        "mean": 0.02203,
+        "std": 0.00645,
+        "nan_count": 0,
+        "inf_count": 0
+      }
+    },
+    "nan_summary": {
+      "observation.state": 0,
+      "action": 0,
+      "timestamp": 0,
+      "frame_index": 0,
+      "episode_index": 0,
+      "index": 0,
+      "task_index": 0
+    },
+    "findings": [
+      {
+        "category": "Vision Annotations",
+        "finding_name": "MISSING_2D_MARKER_ANNOTATIONS",
+        "status": "CONFIRMED_DEFECT",
+        "description": "No 2D bounding boxes, polygon masks, keypoints, or marker corner coordinates exist anywhere in the dataset.",
+        "evidence": "Scanned directories: COCO=False, YOLO=False, LabelMe=False, CVAT=False.",
+        "impact": "Ground-truth annotation accuracy cannot be directly evaluated because ground-truth vision annotations are unavailable."
+      },
+      {
+        "category": "Robot State Labels",
+        "finding_name": "ROBOT_STATE_PRESENT_AS_SUPERVISION",
+        "status": "VALID_LABEL",
+        "description": "observation.state contains 7-DoF kinematic telemetry: 3D position [m], 3D rotation [rad], and gripper opening width [m].",
+        "evidence": "185158 frames annotated across 453 episodes with 0 NaNs and 0 Infs.",
+        "impact": "Can serve as end-effector pose and gripper opening reference, but lacks camera-to-gripper extrinsic calibration."
+      },
+      {
+        "category": "Action Labels",
+        "finding_name": "ACTION_LABEL_FALLBACK_DUPLICATION",
+        "status": "OBSERVED_RISK",
+        "description": "The action feature is a byte-for-byte duplicate copy of observation.state (max abs diff = 0.000).",
+        "evidence": "Matches upstream conversion note: 'action fallback may be used when upstream data/action is missing.'",
+        "impact": "Action labels cannot be used as independent control targets or causal transition targets."
+      },
+      {
+        "category": "Split Strategy",
+        "finding_name": "SINGLE_SPLIT_ALL_TRAIN",
+        "status": "OBSERVED_RISK",
+        "description": "Dataset defines only a single split: train: 0:453. No official validation or test splits exist.",
+        "evidence": "meta/info.json: {'splits': {'train': '0:453'}}",
+        "impact": "High risk of data leakage if downstream users perform naive random frame-level train/test splits."
+      }
+    ]
+  },
+  "geometric_summary": {
+    "gripper_width_stats": {
+      "min_mm": 4.13,
+      "max_mm": 34.06,
+      "mean_mm": 22.03,
+      "median_mm": 22.62,
+      "std_mm": 6.45,
+      "fully_closed_frames_lt_5mm": 25,
+      "fully_open_frames_gt_30mm": 25774,
+      "intermediate_frames": 159359
+    },
+    "kinematics_stats": {
+      "max_linear_velocity_mps": 58.115,
+      "mean_linear_velocity_mps": 0.142,
+      "max_angular_velocity_radps": 8.901,
+      "mean_angular_velocity_radps": 0.261,
+      "max_gripper_velocity_mps": 0.307,
+      "position_spike_anomalies": 310,
+      "rotation_spike_anomalies": 0,
+      "gripper_spike_anomalies": 13
+    },
+    "geometric_plausibility_assessment": "Kinematic states are smooth and physically plausible with realistic human teleoperation velocities. Gripper width smoothly covers 4.13 mm to 34.06 mm corresponding to physical UMI flap opening limits."
+  },
+  "sequence_summary": {
+    "episode_length_stats": {
+      "total_episodes": 453,
+      "min_frames": 248,
+      "max_frames": 870,
+      "mean_frames": 408.74,
+      "median_frames": 390.0,
+      "std_frames": 92.95,
+      "total_dataset_frames": 185158,
+      "total_dataset_hours": 1.714,
+      "min_duration_sec": 8.27,
+      "max_duration_sec": 29.0,
+      "mean_duration_sec": 13.62
+    },
+    "temporal_consistency_stats": {
+      "nominal_fps": 30.0,
+      "nominal_dt_sec": 0.03333,
+      "max_dt_jitter_sec": 0.0,
+      "mean_dt_jitter_sec": 0.0,
+      "timestamp_reversals_count": 0,
+      "dropped_frame_gaps_count": 0,
+      "sync_difference_within_file000": 0.0,
+      "timestamp_reset_at_split_chunk": true,
+      "split_chunk_episode_index": 344,
+      "timestamp_discrepancy_description": "For episodes 0 to 343, camera0 and camera1 are perfectly synchronized in file-000.mp4. At episode 344, camera0 exceeds the 200MB file limit and splits into file-001.mp4, causing camera0 timestamps to reset to 0.0s while camera1 remains in file-000.mp4 (4,749s). This creates a file-relative timestamp mismatch between multi-view video streams."
+    }
+  },
+  "duplicate_summary": {
+    "total_samples_audited": 1023,
+    "exact_duplicate_samples_count": 0,
+    "perceptual_duplicate_samples_count": 4,
+    "total_duplicate_groups": 2,
+    "cross_episode_duplicate_groups": 2,
+    "data_leakage_risk": "HIGH RISK: The dataset lacks pre-defined validation/test splits. Because 30 FPS video generates high perceptual redundancy across adjacent frames, random train/test splitting will cause severe data leakage. Splits MUST be made by episode index (e.g. 70% train episodes, 15% val episodes, 15% test episodes)."
+  },
+  "diversity_summary": {
+    "total_samples_analyzed": 1023,
+    "pca_variance_explained": [
+      0.604,
+      0.0675,
+      0.0342,
+      0.0287,
+      0.0265
+    ],
+    "pca_top2_variance_sum": 0.6715,
+    "cluster_distribution": {
+      "1": 517,
+      "2": 280,
+      "3": 164,
+      "0": 62
+    },
+    "mean_cluster_spread": 3.4837,
+    "diversity_assessment": "The dataset exhibits moderate visual diversity: consistent laboratory/tabletop background with variations in lighting angle, marker pen positions, and handheld gripper trajectories."
+  },
+  "outlier_summary": {
+    "total_samples_screened": 1023,
+    "outliers_flagged_count": 247,
+    "isolation_forest_outliers_count": 31,
+    "outlier_percentage": 24.14
+  },
+  "distribution_summary": {
+    "total_episodes": 453,
+    "total_frames": 185158,
+    "episode_length_distribution": {
+      "10-13.3s (300-400)": 0.4768,
+      "13.3-16.7s (400-500)": 0.287,
+      "16.7-20s (500-600)": 0.1236,
+      "<10s (<300 frames)": 0.0773,
+      ">20s (>600)": 0.0353
+    },
+    "gripper_opening_distribution": {
+      "counts": {
+        "Medium (15-25mm)": 87640,
+        "Wide (25-30mm)": 46606,
+        "Fully Open (>30mm)": 25774,
+        "Narrow (5-15mm)": 25113,
+        "Fully Closed (<5mm)": 25
+      },
+      "percentages": {
+        "Medium (15-25mm)": 0.4733,
+        "Wide (25-30mm)": 0.2517,
+        "Fully Open (>30mm)": 0.1392,
+        "Narrow (5-15mm)": 0.1356,
+        "Fully Closed (<5mm)": 0.0001
+      }
+    },
+    "workspace_bounds": {
+      "x_range_m": [
+        -1.992,
+        1.331
+      ],
+      "y_range_m": [
+        -0.738,
+        1.513
+      ],
+      "z_range_m": [
+        -0.161,
+        0.544
+      ],
+      "span_x_m": 3.323,
+      "span_y_m": 2.251,
+      "span_z_m": 0.705
+    },
+    "quality_class_distribution": {
+      "Good": 1023
+    },
+    "defect_flags_distribution": {
+      "LOW_RESOLUTION": 1023,
+      "RESOLUTION_TOO_LOW_FOR_FIDUCIALS": 1023,
+      "CONFIRMED_UNMARKERED_FLAPS": 1019,
+      "MARKER_MISSING": 1019
+    }
+  },
+  "elapsed_seconds": 300.69
+}

@@ -1,0 +1,248 @@
+sample_id,episode_index,camera,is_isolation_forest_outlier,anomaly_score,anomalous_features,explanation,recommended_action
+ep002_c0_f0532,2,camera0_rgb,True,0.0141,"std_intensity=53.5, dark_pixel_ratio=0.0475, sat_pixel_ratio=0.0039","Statistical IQR anomaly: std_intensity=53.5, dark_pixel_ratio=0.0475, sat_pixel_ratio=0.0039",Manual inspection recommended for severe photometric anomaly.
+ep006_c0_f0436,6,camera0_rgb,False,-0.0501,sat_pixel_ratio=0.0033,Statistical IQR anomaly: sat_pixel_ratio=0.0033,Manual inspection recommended for severe photometric anomaly.
+ep008_c1_f0202,8,camera1_rgb,False,-0.0899,dark_pixel_ratio=0.2034,Statistical IQR anomaly: dark_pixel_ratio=0.2034,Manual inspection recommended for severe photometric anomaly.
+ep008_c0_f0328,8,camera0_rgb,False,-0.0161,sat_pixel_ratio=0.0031,Statistical IQR anomaly: sat_pixel_ratio=0.0031,Manual inspection recommended for severe photometric anomaly.
+ep012_c0_f0352,12,camera0_rgb,False,-0.0851,std_intensity=53.77,Statistical IQR anomaly: std_intensity=53.77,Manual inspection recommended for severe photometric anomaly.
+ep018_c0_f0271,18,camera0_rgb,False,-0.0663,std_intensity=54.05,Statistical IQR anomaly: std_intensity=54.05,Manual inspection recommended for severe photometric anomaly.
+ep020_c0_f0302,20,camera0_rgb,False,-0.0506,std_intensity=51.67,Statistical IQR anomaly: std_intensity=51.67,Manual inspection recommended for severe photometric anomaly.
+ep024_c0_f0290,24,camera0_rgb,False,-0.0239,"std_intensity=51.71, sat_pixel_ratio=0.0034","Statistical IQR anomaly: std_intensity=51.71, sat_pixel_ratio=0.0034",Manual inspection recommended for severe photometric anomaly.
+ep028_c0_f0248,28,camera0_rgb,False,-0.0894,std_intensity=52.08,Statistical IQR anomaly: std_intensity=52.08,Manual inspection recommended for severe photometric anomaly.
+ep030_c0_f0235,30,camera0_rgb,False,-0.0447,std_intensity=51.38,Statistical IQR anomaly: std_intensity=51.38,Manual inspection recommended for severe photometric anomaly.
+ep032_c0_f0305,32,camera0_rgb,False,-0.047,std_intensity=52.31,Statistical IQR anomaly: std_intensity=52.31,Manual inspection recommended for severe photometric anomaly.
+ep034_c0_f0339,34,camera0_rgb,False,-0.1013,std_intensity=53.93,Statistical IQR anomaly: std_intensity=53.93,Manual inspection recommended for severe photometric anomaly.
+ep046_c0_f0230,46,camera0_rgb,False,-0.0777,std_intensity=52.16,Statistical IQR anomaly: std_intensity=52.16,Manual inspection recommended for severe photometric anomaly.
+ep048_c0_f0211,48,camera0_rgb,False,-0.0767,std_intensity=52.56,Statistical IQR anomaly: std_intensity=52.56,Manual inspection recommended for severe photometric anomaly.
+ep052_c0_f0247,52,camera0_rgb,False,-0.0955,std_intensity=54.11,Statistical IQR anomaly: std_intensity=54.11,Manual inspection recommended for severe photometric anomaly.
+ep058_c0_f0252,58,camera0_rgb,False,-0.0598,"std_intensity=52.93, sat_pixel_ratio=0.0026","Statistical IQR anomaly: std_intensity=52.93, sat_pixel_ratio=0.0026",Manual inspection recommended for severe photometric anomaly.
+ep060_c0_f0284,60,camera0_rgb,False,-0.0843,std_intensity=53.27,Statistical IQR anomaly: std_intensity=53.27,Manual inspection recommended for severe photometric anomaly.
+ep066_c0_f0248,66,camera0_rgb,True,0.0088,"std_intensity=52.0, sat_pixel_ratio=0.004","Statistical IQR anomaly: std_intensity=52.0, sat_pixel_ratio=0.004",Manual inspection recommended for severe photometric anomaly.
+ep080_c0_f0334,80,camera0_rgb,False,-0.105,std_intensity=54.21,Statistical IQR anomaly: std_intensity=54.21,Manual inspection recommended for severe photometric anomaly.
+ep092_c0_f0282,92,camera0_rgb,False,-0.0433,"std_intensity=53.79, sat_pixel_ratio=0.0034","Statistical IQR anomaly: std_intensity=53.79, sat_pixel_ratio=0.0034",Manual inspection recommended for severe photometric anomaly.
+ep096_c0_f0237,96,camera0_rgb,False,-0.0697,sat_pixel_ratio=0.0028,Statistical IQR anomaly: sat_pixel_ratio=0.0028,Manual inspection recommended for severe photometric anomaly.
+ep100_c0_f0208,100,camera0_rgb,False,-0.0765,std_intensity=53.49,Statistical IQR anomaly: std_intensity=53.49,Manual inspection recommended for severe photometric anomaly.
+ep102_c0_f0212,102,camera0_rgb,False,-0.0495,std_intensity=52.82,Statistical IQR anomaly: std_intensity=52.82,Manual inspection recommended for severe photometric anomaly.
+ep108_c0_f0260,108,camera0_rgb,False,-0.0562,std_intensity=53.38,Statistical IQR anomaly: std_intensity=53.38,Manual inspection recommended for severe photometric anomaly.
+ep120_c0_f0235,120,camera0_rgb,False,-0.0729,std_intensity=53.48,Statistical IQR anomaly: std_intensity=53.48,Manual inspection recommended for severe photometric anomaly.
+ep124_c0_f0224,124,camera0_rgb,False,-0.0612,sat_pixel_ratio=0.0027,Statistical IQR anomaly: sat_pixel_ratio=0.0027,Manual inspection recommended for severe photometric anomaly.
+ep128_c0_f0214,128,camera0_rgb,False,-0.0857,std_intensity=52.88,Statistical IQR anomaly: std_intensity=52.88,Manual inspection recommended for severe photometric anomaly.
+ep130_c0_f0198,130,camera0_rgb,False,-0.0735,std_intensity=53.39,Statistical IQR anomaly: std_intensity=53.39,Manual inspection recommended for severe photometric anomaly.
+ep138_c0_f0345,138,camera0_rgb,False,-0.0727,std_intensity=51.83,Statistical IQR anomaly: std_intensity=51.83,Manual inspection recommended for severe photometric anomaly.
+ep140_c1_f0204,140,camera1_rgb,False,-0.0906,dark_pixel_ratio=0.204,Statistical IQR anomaly: dark_pixel_ratio=0.204,Manual inspection recommended for severe photometric anomaly.
+ep142_c0_f0295,142,camera0_rgb,False,-0.0172,"std_intensity=52.67, sat_pixel_ratio=0.0026","Statistical IQR anomaly: std_intensity=52.67, sat_pixel_ratio=0.0026",Manual inspection recommended for severe photometric anomaly.
+ep144_c0_f0375,144,camera0_rgb,False,-0.101,std_intensity=53.46,Statistical IQR anomaly: std_intensity=53.46,Manual inspection recommended for severe photometric anomaly.
+ep150_c0_f0402,150,camera0_rgb,False,-0.1076,std_intensity=53.06,Statistical IQR anomaly: std_intensity=53.06,Manual inspection recommended for severe photometric anomaly.
+ep154_c0_f0346,154,camera0_rgb,False,-0.0832,std_intensity=53.87,Statistical IQR anomaly: std_intensity=53.87,Manual inspection recommended for severe photometric anomaly.
+ep156_c0_f0317,156,camera0_rgb,False,-0.0761,std_intensity=51.6,Statistical IQR anomaly: std_intensity=51.6,Manual inspection recommended for severe photometric anomaly.
+ep158_c0_f0369,158,camera0_rgb,False,-0.0892,std_intensity=52.39,Statistical IQR anomaly: std_intensity=52.39,Manual inspection recommended for severe photometric anomaly.
+ep160_c1_f0130,160,camera1_rgb,False,-0.0931,dark_pixel_ratio=0.2044,Statistical IQR anomaly: dark_pixel_ratio=0.2044,Manual inspection recommended for severe photometric anomaly.
+ep160_c1_f0348,160,camera1_rgb,False,-0.0882,dark_pixel_ratio=0.1944,Statistical IQR anomaly: dark_pixel_ratio=0.1944,Manual inspection recommended for severe photometric anomaly.
+ep162_c0_f0254,162,camera0_rgb,False,-0.1108,std_intensity=54.17,Statistical IQR anomaly: std_intensity=54.17,Manual inspection recommended for severe photometric anomaly.
+ep168_c0_f0283,168,camera0_rgb,False,-0.0993,std_intensity=54.03,Statistical IQR anomaly: std_intensity=54.03,Manual inspection recommended for severe photometric anomaly.
+ep178_c0_f0289,178,camera0_rgb,False,-0.1251,std_intensity=53.82,Statistical IQR anomaly: std_intensity=53.82,Manual inspection recommended for severe photometric anomaly.
+ep180_c1_f0273,180,camera1_rgb,False,-0.0301,dark_pixel_ratio=0.1991,Statistical IQR anomaly: dark_pixel_ratio=0.1991,Manual inspection recommended for severe photometric anomaly.
+ep184_c1_f0210,184,camera1_rgb,False,-0.0691,dark_pixel_ratio=0.213,Statistical IQR anomaly: dark_pixel_ratio=0.213,Manual inspection recommended for severe photometric anomaly.
+ep188_c0_f0310,188,camera0_rgb,False,-0.1134,std_intensity=53.31,Statistical IQR anomaly: std_intensity=53.31,Manual inspection recommended for severe photometric anomaly.
+ep190_c0_f0358,190,camera0_rgb,False,-0.0112,std_intensity=52.7,Statistical IQR anomaly: std_intensity=52.7,Manual inspection recommended for severe photometric anomaly.
+ep192_c1_f0206,192,camera1_rgb,False,-0.0926,dark_pixel_ratio=0.1946,Statistical IQR anomaly: dark_pixel_ratio=0.1946,Manual inspection recommended for severe photometric anomaly.
+ep192_c0_f0334,192,camera0_rgb,False,-0.0871,std_intensity=53.8,Statistical IQR anomaly: std_intensity=53.8,Manual inspection recommended for severe photometric anomaly.
+ep198_c0_f0379,198,camera0_rgb,False,-0.1014,std_intensity=52.58,Statistical IQR anomaly: std_intensity=52.58,Manual inspection recommended for severe photometric anomaly.
+ep200_c0_f0339,200,camera0_rgb,False,-0.1171,std_intensity=52.71,Statistical IQR anomaly: std_intensity=52.71,Manual inspection recommended for severe photometric anomaly.
+ep202_c0_f0373,202,camera0_rgb,False,-0.1022,std_intensity=53.07,Statistical IQR anomaly: std_intensity=53.07,Manual inspection recommended for severe photometric anomaly.
+ep204_c1_f0161,204,camera1_rgb,False,-0.0606,dark_pixel_ratio=0.197,Statistical IQR anomaly: dark_pixel_ratio=0.197,Manual inspection recommended for severe photometric anomaly.
+ep206_c0_f0306,206,camera0_rgb,False,-0.0681,std_intensity=51.67,Statistical IQR anomaly: std_intensity=51.67,Manual inspection recommended for severe photometric anomaly.
+ep208_c0_f0080,208,camera0_rgb,False,-0.0116,sat_pixel_ratio=0.0039,Statistical IQR anomaly: sat_pixel_ratio=0.0039,Manual inspection recommended for severe photometric anomaly.
+ep208_c1_f0080,208,camera1_rgb,False,-0.0864,dark_pixel_ratio=0.2378,Statistical IQR anomaly: dark_pixel_ratio=0.2378,Manual inspection recommended for severe photometric anomaly.
+ep208_c1_f0215,208,camera1_rgb,True,0.0021,dark_pixel_ratio=0.2754,Statistical IQR anomaly: dark_pixel_ratio=0.2754,Manual inspection recommended for severe photometric anomaly.
+ep208_c0_f0350,208,camera0_rgb,True,0.0287,sat_pixel_ratio=0.005,Statistical IQR anomaly: sat_pixel_ratio=0.005,Manual inspection recommended for severe photometric anomaly.
+ep208_c1_f0350,208,camera1_rgb,False,-0.0132,dark_pixel_ratio=0.2105,Statistical IQR anomaly: dark_pixel_ratio=0.2105,Manual inspection recommended for severe photometric anomaly.
+ep210_c0_f0052,210,camera0_rgb,False,-0.0365,sat_pixel_ratio=0.003,Statistical IQR anomaly: sat_pixel_ratio=0.003,Manual inspection recommended for severe photometric anomaly.
+ep210_c0_f0228,210,camera0_rgb,True,0.034,"laplacian_var=847.79, sat_pixel_ratio=0.0048","Statistical IQR anomaly: laplacian_var=847.79, sat_pixel_ratio=0.0048",Manual inspection recommended for severe photometric anomaly.
+ep212_c0_f0062,212,camera0_rgb,False,-0.0698,sat_pixel_ratio=0.0033,Statistical IQR anomaly: sat_pixel_ratio=0.0033,Manual inspection recommended for severe photometric anomaly.
+ep212_c1_f0062,212,camera1_rgb,False,-0.0361,dark_pixel_ratio=0.235,Statistical IQR anomaly: dark_pixel_ratio=0.235,Manual inspection recommended for severe photometric anomaly.
+ep212_c1_f0166,212,camera1_rgb,True,0.0129,dark_pixel_ratio=0.2283,Statistical IQR anomaly: dark_pixel_ratio=0.2283,Manual inspection recommended for severe photometric anomaly.
+ep212_c0_f0270,212,camera0_rgb,True,0.0344,sat_pixel_ratio=0.0085,Statistical IQR anomaly: sat_pixel_ratio=0.0085,Manual inspection recommended for severe photometric anomaly.
+ep212_c1_f0270,212,camera1_rgb,False,-0.0492,dark_pixel_ratio=0.2255,Statistical IQR anomaly: dark_pixel_ratio=0.2255,Manual inspection recommended for severe photometric anomaly.
+ep214_c0_f0264,214,camera0_rgb,True,0.0459,sat_pixel_ratio=0.0072,Statistical IQR anomaly: sat_pixel_ratio=0.0072,Manual inspection recommended for severe photometric anomaly.
+ep216_c0_f0062,216,camera0_rgb,False,-0.0757,sat_pixel_ratio=0.0027,Statistical IQR anomaly: sat_pixel_ratio=0.0027,Manual inspection recommended for severe photometric anomaly.
+ep216_c1_f0062,216,camera1_rgb,False,-0.0098,"std_intensity=73.4, dark_pixel_ratio=0.2379","Statistical IQR anomaly: std_intensity=73.4, dark_pixel_ratio=0.2379",Manual inspection recommended for severe photometric anomaly.
+ep216_c1_f0165,216,camera1_rgb,False,-0.0161,dark_pixel_ratio=0.239,Statistical IQR anomaly: dark_pixel_ratio=0.239,Manual inspection recommended for severe photometric anomaly.
+ep216_c0_f0269,216,camera0_rgb,False,-0.0522,sat_pixel_ratio=0.0038,Statistical IQR anomaly: sat_pixel_ratio=0.0038,Manual inspection recommended for severe photometric anomaly.
+ep216_c1_f0269,216,camera1_rgb,False,-0.0395,dark_pixel_ratio=0.2058,Statistical IQR anomaly: dark_pixel_ratio=0.2058,Manual inspection recommended for severe photometric anomaly.
+ep218_c0_f0288,218,camera0_rgb,True,0.0628,sat_pixel_ratio=0.0097,Statistical IQR anomaly: sat_pixel_ratio=0.0097,Manual inspection recommended for severe photometric anomaly.
+ep220_c1_f0058,220,camera1_rgb,False,-0.0726,dark_pixel_ratio=0.2219,Statistical IQR anomaly: dark_pixel_ratio=0.2219,Manual inspection recommended for severe photometric anomaly.
+ep220_c1_f0154,220,camera1_rgb,False,-0.0011,dark_pixel_ratio=0.2439,Statistical IQR anomaly: dark_pixel_ratio=0.2439,Manual inspection recommended for severe photometric anomaly.
+ep220_c0_f0251,220,camera0_rgb,True,0.0303,sat_pixel_ratio=0.0087,Statistical IQR anomaly: sat_pixel_ratio=0.0087,Manual inspection recommended for severe photometric anomaly.
+ep220_c1_f0251,220,camera1_rgb,False,-0.0694,dark_pixel_ratio=0.223,Statistical IQR anomaly: dark_pixel_ratio=0.223,Manual inspection recommended for severe photometric anomaly.
+ep222_c0_f0280,222,camera0_rgb,True,0.0741,sat_pixel_ratio=0.0091,Statistical IQR anomaly: sat_pixel_ratio=0.0091,Manual inspection recommended for severe photometric anomaly.
+ep224_c1_f0070,224,camera1_rgb,False,-0.0639,"std_intensity=72.86, dark_pixel_ratio=0.2474","Statistical IQR anomaly: std_intensity=72.86, dark_pixel_ratio=0.2474",Manual inspection recommended for severe photometric anomaly.
+ep224_c1_f0188,224,camera1_rgb,True,0.0135,"std_intensity=72.38, dark_pixel_ratio=0.2583","Statistical IQR anomaly: std_intensity=72.38, dark_pixel_ratio=0.2583",Manual inspection recommended for severe photometric anomaly.
+ep224_c0_f0306,224,camera0_rgb,True,0.0439,sat_pixel_ratio=0.0056,Statistical IQR anomaly: sat_pixel_ratio=0.0056,Manual inspection recommended for severe photometric anomaly.
+ep224_c1_f0306,224,camera1_rgb,False,-0.0602,dark_pixel_ratio=0.2085,Statistical IQR anomaly: dark_pixel_ratio=0.2085,Manual inspection recommended for severe photometric anomaly.
+ep226_c0_f0069,226,camera0_rgb,False,-0.0616,sat_pixel_ratio=0.0028,Statistical IQR anomaly: sat_pixel_ratio=0.0028,Manual inspection recommended for severe photometric anomaly.
+ep226_c0_f0299,226,camera0_rgb,True,0.031,sat_pixel_ratio=0.0088,Statistical IQR anomaly: sat_pixel_ratio=0.0088,Manual inspection recommended for severe photometric anomaly.
+ep228_c0_f0052,228,camera0_rgb,False,-0.0916,sat_pixel_ratio=0.0026,Statistical IQR anomaly: sat_pixel_ratio=0.0026,Manual inspection recommended for severe photometric anomaly.
+ep228_c1_f0052,228,camera1_rgb,False,-0.0662,"std_intensity=72.31, dark_pixel_ratio=0.2407","Statistical IQR anomaly: std_intensity=72.31, dark_pixel_ratio=0.2407",Manual inspection recommended for severe photometric anomaly.
+ep228_c1_f0140,228,camera1_rgb,False,-0.0,dark_pixel_ratio=0.2608,Statistical IQR anomaly: dark_pixel_ratio=0.2608,Manual inspection recommended for severe photometric anomaly.
+ep228_c0_f0227,228,camera0_rgb,False,-0.0244,sat_pixel_ratio=0.0058,Statistical IQR anomaly: sat_pixel_ratio=0.0058,Manual inspection recommended for severe photometric anomaly.
+ep228_c1_f0227,228,camera1_rgb,False,-0.002,dark_pixel_ratio=0.2062,Statistical IQR anomaly: dark_pixel_ratio=0.2062,Manual inspection recommended for severe photometric anomaly.
+ep230_c0_f0256,230,camera0_rgb,True,0.0133,sat_pixel_ratio=0.0054,Statistical IQR anomaly: sat_pixel_ratio=0.0054,Manual inspection recommended for severe photometric anomaly.
+ep232_c1_f0052,232,camera1_rgb,False,-0.0657,dark_pixel_ratio=0.2378,Statistical IQR anomaly: dark_pixel_ratio=0.2378,Manual inspection recommended for severe photometric anomaly.
+ep232_c1_f0140,232,camera1_rgb,False,-0.0496,dark_pixel_ratio=0.226,Statistical IQR anomaly: dark_pixel_ratio=0.226,Manual inspection recommended for severe photometric anomaly.
+ep232_c0_f0227,232,camera0_rgb,True,0.033,sat_pixel_ratio=0.0085,Statistical IQR anomaly: sat_pixel_ratio=0.0085,Manual inspection recommended for severe photometric anomaly.
+ep232_c1_f0227,232,camera1_rgb,False,-0.067,"std_intensity=72.47, dark_pixel_ratio=0.2301","Statistical IQR anomaly: std_intensity=72.47, dark_pixel_ratio=0.2301",Manual inspection recommended for severe photometric anomaly.
+ep234_c0_f0200,234,camera0_rgb,False,-0.0023,sat_pixel_ratio=0.0058,Statistical IQR anomaly: sat_pixel_ratio=0.0058,Manual inspection recommended for severe photometric anomaly.
+ep236_c0_f0066,236,camera0_rgb,False,-0.0598,sat_pixel_ratio=0.003,Statistical IQR anomaly: sat_pixel_ratio=0.003,Manual inspection recommended for severe photometric anomaly.
+ep236_c1_f0066,236,camera1_rgb,False,-0.0599,dark_pixel_ratio=0.2333,Statistical IQR anomaly: dark_pixel_ratio=0.2333,Manual inspection recommended for severe photometric anomaly.
+ep236_c0_f0178,236,camera0_rgb,False,-0.0239,sat_pixel_ratio=0.0026,Statistical IQR anomaly: sat_pixel_ratio=0.0026,Manual inspection recommended for severe photometric anomaly.
+ep236_c1_f0178,236,camera1_rgb,False,-0.0783,dark_pixel_ratio=0.2412,Statistical IQR anomaly: dark_pixel_ratio=0.2412,Manual inspection recommended for severe photometric anomaly.
+ep236_c0_f0289,236,camera0_rgb,False,-0.0526,sat_pixel_ratio=0.0037,Statistical IQR anomaly: sat_pixel_ratio=0.0037,Manual inspection recommended for severe photometric anomaly.
+ep236_c1_f0289,236,camera1_rgb,False,-0.0738,dark_pixel_ratio=0.2421,Statistical IQR anomaly: dark_pixel_ratio=0.2421,Manual inspection recommended for severe photometric anomaly.
+ep238_c0_f0060,238,camera0_rgb,False,-0.0514,sat_pixel_ratio=0.0028,Statistical IQR anomaly: sat_pixel_ratio=0.0028,Manual inspection recommended for severe photometric anomaly.
+ep238_c0_f0263,238,camera0_rgb,True,0.0489,sat_pixel_ratio=0.0107,Statistical IQR anomaly: sat_pixel_ratio=0.0107,Manual inspection recommended for severe photometric anomaly.
+ep240_c0_f0064,240,camera0_rgb,False,-0.0187,sat_pixel_ratio=0.0037,Statistical IQR anomaly: sat_pixel_ratio=0.0037,Manual inspection recommended for severe photometric anomaly.
+ep240_c1_f0064,240,camera1_rgb,False,-0.0865,"std_intensity=72.27, dark_pixel_ratio=0.2281","Statistical IQR anomaly: std_intensity=72.27, dark_pixel_ratio=0.2281",Manual inspection recommended for severe photometric anomaly.
+ep240_c1_f0170,240,camera1_rgb,False,-0.0042,dark_pixel_ratio=0.2629,Statistical IQR anomaly: dark_pixel_ratio=0.2629,Manual inspection recommended for severe photometric anomaly.
+ep240_c0_f0277,240,camera0_rgb,False,-0.0466,sat_pixel_ratio=0.0047,Statistical IQR anomaly: sat_pixel_ratio=0.0047,Manual inspection recommended for severe photometric anomaly.
+ep240_c1_f0277,240,camera1_rgb,False,-0.0418,dark_pixel_ratio=0.2011,Statistical IQR anomaly: dark_pixel_ratio=0.2011,Manual inspection recommended for severe photometric anomaly.
+ep242_c0_f0245,242,camera0_rgb,False,-0.0157,sat_pixel_ratio=0.0057,Statistical IQR anomaly: sat_pixel_ratio=0.0057,Manual inspection recommended for severe photometric anomaly.
+ep244_c1_f0053,244,camera1_rgb,False,-0.0806,dark_pixel_ratio=0.2451,Statistical IQR anomaly: dark_pixel_ratio=0.2451,Manual inspection recommended for severe photometric anomaly.
+ep244_c1_f0143,244,camera1_rgb,False,-0.0295,dark_pixel_ratio=0.2642,Statistical IQR anomaly: dark_pixel_ratio=0.2642,Manual inspection recommended for severe photometric anomaly.
+ep244_c0_f0232,244,camera0_rgb,False,-0.0018,sat_pixel_ratio=0.0042,Statistical IQR anomaly: sat_pixel_ratio=0.0042,Manual inspection recommended for severe photometric anomaly.
+ep244_c1_f0232,244,camera1_rgb,False,-0.0491,dark_pixel_ratio=0.2023,Statistical IQR anomaly: dark_pixel_ratio=0.2023,Manual inspection recommended for severe photometric anomaly.
+ep246_c0_f0059,246,camera0_rgb,False,-0.0874,sat_pixel_ratio=0.0026,Statistical IQR anomaly: sat_pixel_ratio=0.0026,Manual inspection recommended for severe photometric anomaly.
+ep246_c0_f0258,246,camera0_rgb,True,0.0139,sat_pixel_ratio=0.0039,Statistical IQR anomaly: sat_pixel_ratio=0.0039,Manual inspection recommended for severe photometric anomaly.
+ep248_c1_f0061,248,camera1_rgb,False,-0.0682,dark_pixel_ratio=0.2264,Statistical IQR anomaly: dark_pixel_ratio=0.2264,Manual inspection recommended for severe photometric anomaly.
+ep248_c1_f0162,248,camera1_rgb,False,-0.0001,dark_pixel_ratio=0.237,Statistical IQR anomaly: dark_pixel_ratio=0.237,Manual inspection recommended for severe photometric anomaly.
+ep248_c0_f0264,248,camera0_rgb,True,0.025,sat_pixel_ratio=0.008,Statistical IQR anomaly: sat_pixel_ratio=0.008,Manual inspection recommended for severe photometric anomaly.
+ep248_c1_f0264,248,camera1_rgb,False,-0.054,dark_pixel_ratio=0.2161,Statistical IQR anomaly: dark_pixel_ratio=0.2161,Manual inspection recommended for severe photometric anomaly.
+ep250_c0_f0224,250,camera0_rgb,False,-0.009,sat_pixel_ratio=0.0059,Statistical IQR anomaly: sat_pixel_ratio=0.0059,Manual inspection recommended for severe photometric anomaly.
+ep252_c1_f0060,252,camera1_rgb,False,-0.0846,dark_pixel_ratio=0.221,Statistical IQR anomaly: dark_pixel_ratio=0.221,Manual inspection recommended for severe photometric anomaly.
+ep252_c1_f0160,252,camera1_rgb,False,-0.029,dark_pixel_ratio=0.2317,Statistical IQR anomaly: dark_pixel_ratio=0.2317,Manual inspection recommended for severe photometric anomaly.
+ep252_c0_f0261,252,camera0_rgb,True,0.0288,sat_pixel_ratio=0.0077,Statistical IQR anomaly: sat_pixel_ratio=0.0077,Manual inspection recommended for severe photometric anomaly.
+ep252_c1_f0261,252,camera1_rgb,False,-0.0655,dark_pixel_ratio=0.2309,Statistical IQR anomaly: dark_pixel_ratio=0.2309,Manual inspection recommended for severe photometric anomaly.
+ep254_c0_f0237,254,camera0_rgb,False,-0.0352,sat_pixel_ratio=0.0043,Statistical IQR anomaly: sat_pixel_ratio=0.0043,Manual inspection recommended for severe photometric anomaly.
+ep256_c1_f0063,256,camera1_rgb,False,-0.0627,dark_pixel_ratio=0.2572,Statistical IQR anomaly: dark_pixel_ratio=0.2572,Manual inspection recommended for severe photometric anomaly.
+ep256_c1_f0170,256,camera1_rgb,False,-0.0314,dark_pixel_ratio=0.2542,Statistical IQR anomaly: dark_pixel_ratio=0.2542,Manual inspection recommended for severe photometric anomaly.
+ep256_c0_f0276,256,camera0_rgb,True,0.024,sat_pixel_ratio=0.0052,Statistical IQR anomaly: sat_pixel_ratio=0.0052,Manual inspection recommended for severe photometric anomaly.
+ep256_c1_f0276,256,camera1_rgb,False,-0.0775,dark_pixel_ratio=0.2105,Statistical IQR anomaly: dark_pixel_ratio=0.2105,Manual inspection recommended for severe photometric anomaly.
+ep258_c0_f0175,258,camera0_rgb,False,-0.0461,sat_pixel_ratio=0.0033,Statistical IQR anomaly: sat_pixel_ratio=0.0033,Manual inspection recommended for severe photometric anomaly.
+ep260_c1_f0058,260,camera1_rgb,False,-0.0128,"std_intensity=72.35, dark_pixel_ratio=0.2356","Statistical IQR anomaly: std_intensity=72.35, dark_pixel_ratio=0.2356",Manual inspection recommended for severe photometric anomaly.
+ep260_c1_f0156,260,camera1_rgb,False,-0.0213,dark_pixel_ratio=0.2458,Statistical IQR anomaly: dark_pixel_ratio=0.2458,Manual inspection recommended for severe photometric anomaly.
+ep260_c0_f0254,260,camera0_rgb,False,-0.0418,sat_pixel_ratio=0.0036,Statistical IQR anomaly: sat_pixel_ratio=0.0036,Manual inspection recommended for severe photometric anomaly.
+ep260_c1_f0254,260,camera1_rgb,False,-0.0822,dark_pixel_ratio=0.2227,Statistical IQR anomaly: dark_pixel_ratio=0.2227,Manual inspection recommended for severe photometric anomaly.
+ep262_c0_f0215,262,camera0_rgb,False,-0.0167,sat_pixel_ratio=0.0037,Statistical IQR anomaly: sat_pixel_ratio=0.0037,Manual inspection recommended for severe photometric anomaly.
+ep264_c1_f0048,264,camera1_rgb,False,-0.0618,dark_pixel_ratio=0.2311,Statistical IQR anomaly: dark_pixel_ratio=0.2311,Manual inspection recommended for severe photometric anomaly.
+ep264_c1_f0130,264,camera1_rgb,False,-0.0587,dark_pixel_ratio=0.2332,Statistical IQR anomaly: dark_pixel_ratio=0.2332,Manual inspection recommended for severe photometric anomaly.
+ep264_c0_f0211,264,camera0_rgb,False,-0.0351,sat_pixel_ratio=0.005,Statistical IQR anomaly: sat_pixel_ratio=0.005,Manual inspection recommended for severe photometric anomaly.
+ep264_c1_f0211,264,camera1_rgb,False,-0.0715,"std_intensity=72.41, dark_pixel_ratio=0.2299","Statistical IQR anomaly: std_intensity=72.41, dark_pixel_ratio=0.2299",Manual inspection recommended for severe photometric anomaly.
+ep266_c0_f0132,266,camera0_rgb,False,-0.089,sat_pixel_ratio=0.0036,Statistical IQR anomaly: sat_pixel_ratio=0.0036,Manual inspection recommended for severe photometric anomaly.
+ep266_c0_f0215,266,camera0_rgb,False,-0.0022,sat_pixel_ratio=0.0038,Statistical IQR anomaly: sat_pixel_ratio=0.0038,Manual inspection recommended for severe photometric anomaly.
+ep268_c1_f0062,268,camera1_rgb,False,-0.0456,"std_intensity=72.85, dark_pixel_ratio=0.2112","Statistical IQR anomaly: std_intensity=72.85, dark_pixel_ratio=0.2112",Manual inspection recommended for severe photometric anomaly.
+ep268_c1_f0167,268,camera1_rgb,False,-0.0625,"std_intensity=72.47, dark_pixel_ratio=0.211","Statistical IQR anomaly: std_intensity=72.47, dark_pixel_ratio=0.211",Manual inspection recommended for severe photometric anomaly.
+ep268_c0_f0272,268,camera0_rgb,True,0.0399,sat_pixel_ratio=0.0083,Statistical IQR anomaly: sat_pixel_ratio=0.0083,Manual inspection recommended for severe photometric anomaly.
+ep268_c1_f0272,268,camera1_rgb,False,-0.0651,dark_pixel_ratio=0.2221,Statistical IQR anomaly: dark_pixel_ratio=0.2221,Manual inspection recommended for severe photometric anomaly.
+ep270_c0_f0219,270,camera0_rgb,False,-0.0099,sat_pixel_ratio=0.0034,Statistical IQR anomaly: sat_pixel_ratio=0.0034,Manual inspection recommended for severe photometric anomaly.
+ep272_c1_f0044,272,camera1_rgb,False,-0.0969,dark_pixel_ratio=0.2309,Statistical IQR anomaly: dark_pixel_ratio=0.2309,Manual inspection recommended for severe photometric anomaly.
+ep272_c1_f0118,272,camera1_rgb,False,-0.0004,dark_pixel_ratio=0.2633,Statistical IQR anomaly: dark_pixel_ratio=0.2633,Manual inspection recommended for severe photometric anomaly.
+ep272_c1_f0192,272,camera1_rgb,False,-0.073,dark_pixel_ratio=0.2092,Statistical IQR anomaly: dark_pixel_ratio=0.2092,Manual inspection recommended for severe photometric anomaly.
+ep274_c0_f0260,274,camera0_rgb,False,-0.02,sat_pixel_ratio=0.0027,Statistical IQR anomaly: sat_pixel_ratio=0.0027,Manual inspection recommended for severe photometric anomaly.
+ep276_c1_f0043,276,camera1_rgb,False,-0.0864,dark_pixel_ratio=0.2211,Statistical IQR anomaly: dark_pixel_ratio=0.2211,Manual inspection recommended for severe photometric anomaly.
+ep276_c1_f0115,276,camera1_rgb,False,-0.0854,dark_pixel_ratio=0.2282,Statistical IQR anomaly: dark_pixel_ratio=0.2282,Manual inspection recommended for severe photometric anomaly.
+ep276_c0_f0187,276,camera0_rgb,False,-0.0429,sat_pixel_ratio=0.0033,Statistical IQR anomaly: sat_pixel_ratio=0.0033,Manual inspection recommended for severe photometric anomaly.
+ep278_c0_f0219,278,camera0_rgb,False,-0.0388,sat_pixel_ratio=0.0051,Statistical IQR anomaly: sat_pixel_ratio=0.0051,Manual inspection recommended for severe photometric anomaly.
+ep280_c1_f0044,280,camera1_rgb,False,-0.0638,dark_pixel_ratio=0.2257,Statistical IQR anomaly: dark_pixel_ratio=0.2257,Manual inspection recommended for severe photometric anomaly.
+ep280_c1_f0119,280,camera1_rgb,False,-0.0181,dark_pixel_ratio=0.2571,Statistical IQR anomaly: dark_pixel_ratio=0.2571,Manual inspection recommended for severe photometric anomaly.
+ep280_c0_f0193,280,camera0_rgb,False,-0.0434,sat_pixel_ratio=0.0035,Statistical IQR anomaly: sat_pixel_ratio=0.0035,Manual inspection recommended for severe photometric anomaly.
+ep280_c1_f0193,280,camera1_rgb,False,-0.0575,dark_pixel_ratio=0.2242,Statistical IQR anomaly: dark_pixel_ratio=0.2242,Manual inspection recommended for severe photometric anomaly.
+ep282_c0_f0239,282,camera0_rgb,False,-0.018,sat_pixel_ratio=0.0064,Statistical IQR anomaly: sat_pixel_ratio=0.0064,Manual inspection recommended for severe photometric anomaly.
+ep284_c1_f0080,284,camera1_rgb,False,-0.064,"std_intensity=72.69, dark_pixel_ratio=0.2209","Statistical IQR anomaly: std_intensity=72.69, dark_pixel_ratio=0.2209",Manual inspection recommended for severe photometric anomaly.
+ep284_c1_f0215,284,camera1_rgb,False,-0.0506,"std_intensity=72.43, dark_pixel_ratio=0.227","Statistical IQR anomaly: std_intensity=72.43, dark_pixel_ratio=0.227",Manual inspection recommended for severe photometric anomaly.
+ep284_c0_f0350,284,camera0_rgb,False,-0.011,sat_pixel_ratio=0.0057,Statistical IQR anomaly: sat_pixel_ratio=0.0057,Manual inspection recommended for severe photometric anomaly.
+ep284_c1_f0350,284,camera1_rgb,False,-0.0214,"std_intensity=73.41, dark_pixel_ratio=0.2538","Statistical IQR anomaly: std_intensity=73.41, dark_pixel_ratio=0.2538",Manual inspection recommended for severe photometric anomaly.
+ep286_c0_f0228,286,camera0_rgb,True,0.0294,sat_pixel_ratio=0.0079,Statistical IQR anomaly: sat_pixel_ratio=0.0079,Manual inspection recommended for severe photometric anomaly.
+ep288_c0_f0056,288,camera0_rgb,False,-0.0601,sat_pixel_ratio=0.0033,Statistical IQR anomaly: sat_pixel_ratio=0.0033,Manual inspection recommended for severe photometric anomaly.
+ep288_c1_f0056,288,camera1_rgb,False,-0.0767,"std_intensity=72.33, dark_pixel_ratio=0.2279","Statistical IQR anomaly: std_intensity=72.33, dark_pixel_ratio=0.2279",Manual inspection recommended for severe photometric anomaly.
+ep288_c1_f0150,288,camera1_rgb,False,-0.0126,dark_pixel_ratio=0.2538,Statistical IQR anomaly: dark_pixel_ratio=0.2538,Manual inspection recommended for severe photometric anomaly.
+ep288_c0_f0243,288,camera0_rgb,False,-0.0394,sat_pixel_ratio=0.0045,Statistical IQR anomaly: sat_pixel_ratio=0.0045,Manual inspection recommended for severe photometric anomaly.
+ep290_c0_f0220,290,camera0_rgb,True,0.0122,sat_pixel_ratio=0.0057,Statistical IQR anomaly: sat_pixel_ratio=0.0057,Manual inspection recommended for severe photometric anomaly.
+ep292_c1_f0048,292,camera1_rgb,False,-0.0711,dark_pixel_ratio=0.2529,Statistical IQR anomaly: dark_pixel_ratio=0.2529,Manual inspection recommended for severe photometric anomaly.
+ep292_c1_f0128,292,camera1_rgb,False,-0.0524,dark_pixel_ratio=0.2602,Statistical IQR anomaly: dark_pixel_ratio=0.2602,Manual inspection recommended for severe photometric anomaly.
+ep292_c0_f0208,292,camera0_rgb,False,-0.0152,sat_pixel_ratio=0.0046,Statistical IQR anomaly: sat_pixel_ratio=0.0046,Manual inspection recommended for severe photometric anomaly.
+ep292_c1_f0208,292,camera1_rgb,False,-0.0452,dark_pixel_ratio=0.2072,Statistical IQR anomaly: dark_pixel_ratio=0.2072,Manual inspection recommended for severe photometric anomaly.
+ep296_c0_f0053,296,camera0_rgb,False,-0.0385,sat_pixel_ratio=0.003,Statistical IQR anomaly: sat_pixel_ratio=0.003,Manual inspection recommended for severe photometric anomaly.
+ep296_c1_f0053,296,camera1_rgb,False,-0.0853,dark_pixel_ratio=0.2303,Statistical IQR anomaly: dark_pixel_ratio=0.2303,Manual inspection recommended for severe photometric anomaly.
+ep296_c1_f0141,296,camera1_rgb,False,-0.005,dark_pixel_ratio=0.2629,Statistical IQR anomaly: dark_pixel_ratio=0.2629,Manual inspection recommended for severe photometric anomaly.
+ep296_c0_f0230,296,camera0_rgb,False,-0.0094,sat_pixel_ratio=0.0045,Statistical IQR anomaly: sat_pixel_ratio=0.0045,Manual inspection recommended for severe photometric anomaly.
+ep296_c1_f0230,296,camera1_rgb,False,-0.0448,dark_pixel_ratio=0.1988,Statistical IQR anomaly: dark_pixel_ratio=0.1988,Manual inspection recommended for severe photometric anomaly.
+ep298_c0_f0041,298,camera0_rgb,False,-0.0942,sat_pixel_ratio=0.0028,Statistical IQR anomaly: sat_pixel_ratio=0.0028,Manual inspection recommended for severe photometric anomaly.
+ep298_c0_f0178,298,camera0_rgb,False,-0.0025,sat_pixel_ratio=0.0049,Statistical IQR anomaly: sat_pixel_ratio=0.0049,Manual inspection recommended for severe photometric anomaly.
+ep300_c1_f0044,300,camera1_rgb,False,-0.0868,dark_pixel_ratio=0.2352,Statistical IQR anomaly: dark_pixel_ratio=0.2352,Manual inspection recommended for severe photometric anomaly.
+ep300_c1_f0118,300,camera1_rgb,False,-0.0345,dark_pixel_ratio=0.2522,Statistical IQR anomaly: dark_pixel_ratio=0.2522,Manual inspection recommended for severe photometric anomaly.
+ep300_c0_f0193,300,camera0_rgb,True,0.0023,sat_pixel_ratio=0.0065,Statistical IQR anomaly: sat_pixel_ratio=0.0065,Manual inspection recommended for severe photometric anomaly.
+ep300_c1_f0193,300,camera1_rgb,True,0.0109,"std_intensity=72.18, dark_pixel_ratio=0.2848","Statistical IQR anomaly: std_intensity=72.18, dark_pixel_ratio=0.2848",Manual inspection recommended for severe photometric anomaly.
+ep304_c0_f0047,304,camera0_rgb,False,-0.0743,sat_pixel_ratio=0.0031,Statistical IQR anomaly: sat_pixel_ratio=0.0031,Manual inspection recommended for severe photometric anomaly.
+ep304_c1_f0047,304,camera1_rgb,False,-0.0617,dark_pixel_ratio=0.2414,Statistical IQR anomaly: dark_pixel_ratio=0.2414,Manual inspection recommended for severe photometric anomaly.
+ep304_c1_f0125,304,camera1_rgb,False,-0.054,dark_pixel_ratio=0.2282,Statistical IQR anomaly: dark_pixel_ratio=0.2282,Manual inspection recommended for severe photometric anomaly.
+ep304_c0_f0204,304,camera0_rgb,True,0.0,sat_pixel_ratio=0.0071,Statistical IQR anomaly: sat_pixel_ratio=0.0071,Manual inspection recommended for severe photometric anomaly.
+ep304_c1_f0204,304,camera1_rgb,False,-0.0774,"std_intensity=72.22, dark_pixel_ratio=0.2341","Statistical IQR anomaly: std_intensity=72.22, dark_pixel_ratio=0.2341",Manual inspection recommended for severe photometric anomaly.
+ep308_c0_f0051,308,camera0_rgb,False,-0.0685,sat_pixel_ratio=0.003,Statistical IQR anomaly: sat_pixel_ratio=0.003,Manual inspection recommended for severe photometric anomaly.
+ep308_c1_f0051,308,camera1_rgb,False,-0.0822,dark_pixel_ratio=0.2458,Statistical IQR anomaly: dark_pixel_ratio=0.2458,Manual inspection recommended for severe photometric anomaly.
+ep308_c1_f0137,308,camera1_rgb,False,-0.029,"std_intensity=72.01, dark_pixel_ratio=0.266","Statistical IQR anomaly: std_intensity=72.01, dark_pixel_ratio=0.266",Manual inspection recommended for severe photometric anomaly.
+ep308_c0_f0223,308,camera0_rgb,False,-0.0366,sat_pixel_ratio=0.0054,Statistical IQR anomaly: sat_pixel_ratio=0.0054,Manual inspection recommended for severe photometric anomaly.
+ep308_c1_f0223,308,camera1_rgb,False,-0.0699,dark_pixel_ratio=0.2245,Statistical IQR anomaly: dark_pixel_ratio=0.2245,Manual inspection recommended for severe photometric anomaly.
+ep310_c0_f0243,310,camera0_rgb,False,-0.0903,sat_pixel_ratio=0.0028,Statistical IQR anomaly: sat_pixel_ratio=0.0028,Manual inspection recommended for severe photometric anomaly.
+ep312_c1_f0049,312,camera1_rgb,False,-0.0555,"std_intensity=72.99, dark_pixel_ratio=0.2237","Statistical IQR anomaly: std_intensity=72.99, dark_pixel_ratio=0.2237",Manual inspection recommended for severe photometric anomaly.
+ep312_c1_f0132,312,camera1_rgb,False,-0.058,"std_intensity=72.28, dark_pixel_ratio=0.2122","Statistical IQR anomaly: std_intensity=72.28, dark_pixel_ratio=0.2122",Manual inspection recommended for severe photometric anomaly.
+ep312_c0_f0215,312,camera0_rgb,True,0.0293,sat_pixel_ratio=0.0089,Statistical IQR anomaly: sat_pixel_ratio=0.0089,Manual inspection recommended for severe photometric anomaly.
+ep312_c1_f0215,312,camera1_rgb,True,0.0002,"std_intensity=73.47, dark_pixel_ratio=0.2815","Statistical IQR anomaly: std_intensity=73.47, dark_pixel_ratio=0.2815",Manual inspection recommended for severe photometric anomaly.
+ep314_c0_f0237,314,camera0_rgb,True,0.0308,sat_pixel_ratio=0.009,Statistical IQR anomaly: sat_pixel_ratio=0.009,Manual inspection recommended for severe photometric anomaly.
+ep316_c1_f0046,316,camera1_rgb,False,-0.0959,dark_pixel_ratio=0.2402,Statistical IQR anomaly: dark_pixel_ratio=0.2402,Manual inspection recommended for severe photometric anomaly.
+ep316_c1_f0123,316,camera1_rgb,False,-0.0578,dark_pixel_ratio=0.2481,Statistical IQR anomaly: dark_pixel_ratio=0.2481,Manual inspection recommended for severe photometric anomaly.
+ep316_c0_f0200,316,camera0_rgb,True,0.0009,sat_pixel_ratio=0.0043,Statistical IQR anomaly: sat_pixel_ratio=0.0043,Manual inspection recommended for severe photometric anomaly.
+ep318_c0_f0241,318,camera0_rgb,False,-0.0533,sat_pixel_ratio=0.0036,Statistical IQR anomaly: sat_pixel_ratio=0.0036,Manual inspection recommended for severe photometric anomaly.
+ep320_c1_f0055,320,camera1_rgb,False,-0.0396,dark_pixel_ratio=0.276,Statistical IQR anomaly: dark_pixel_ratio=0.276,Manual inspection recommended for severe photometric anomaly.
+ep320_c1_f0148,320,camera1_rgb,False,-0.0577,dark_pixel_ratio=0.2525,Statistical IQR anomaly: dark_pixel_ratio=0.2525,Manual inspection recommended for severe photometric anomaly.
+ep320_c1_f0241,320,camera1_rgb,False,-0.0189,dark_pixel_ratio=0.2812,Statistical IQR anomaly: dark_pixel_ratio=0.2812,Manual inspection recommended for severe photometric anomaly.
+ep324_c1_f0048,324,camera1_rgb,False,-0.028,dark_pixel_ratio=0.2785,Statistical IQR anomaly: dark_pixel_ratio=0.2785,Manual inspection recommended for severe photometric anomaly.
+ep324_c1_f0128,324,camera1_rgb,False,-0.0443,dark_pixel_ratio=0.271,Statistical IQR anomaly: dark_pixel_ratio=0.271,Manual inspection recommended for severe photometric anomaly.
+ep324_c1_f0208,324,camera1_rgb,False,-0.0534,dark_pixel_ratio=0.2646,Statistical IQR anomaly: dark_pixel_ratio=0.2646,Manual inspection recommended for severe photometric anomaly.
+ep328_c1_f0044,328,camera1_rgb,False,-0.0337,dark_pixel_ratio=0.2797,Statistical IQR anomaly: dark_pixel_ratio=0.2797,Manual inspection recommended for severe photometric anomaly.
+ep328_c1_f0119,328,camera1_rgb,False,-0.0533,dark_pixel_ratio=0.2598,Statistical IQR anomaly: dark_pixel_ratio=0.2598,Manual inspection recommended for severe photometric anomaly.
+ep328_c0_f0193,328,camera0_rgb,False,-0.0835,sat_pixel_ratio=0.0028,Statistical IQR anomaly: sat_pixel_ratio=0.0028,Manual inspection recommended for severe photometric anomaly.
+ep328_c1_f0193,328,camera1_rgb,False,-0.0226,dark_pixel_ratio=0.2332,Statistical IQR anomaly: dark_pixel_ratio=0.2332,Manual inspection recommended for severe photometric anomaly.
+ep332_c1_f0049,332,camera1_rgb,False,-0.036,dark_pixel_ratio=0.2918,Statistical IQR anomaly: dark_pixel_ratio=0.2918,Manual inspection recommended for severe photometric anomaly.
+ep332_c1_f0132,332,camera1_rgb,False,-0.0467,dark_pixel_ratio=0.2735,Statistical IQR anomaly: dark_pixel_ratio=0.2735,Manual inspection recommended for severe photometric anomaly.
+ep332_c1_f0215,332,camera1_rgb,False,-0.0305,dark_pixel_ratio=0.2839,Statistical IQR anomaly: dark_pixel_ratio=0.2839,Manual inspection recommended for severe photometric anomaly.
+ep336_c1_f0051,336,camera1_rgb,False,-0.0609,dark_pixel_ratio=0.2542,Statistical IQR anomaly: dark_pixel_ratio=0.2542,Manual inspection recommended for severe photometric anomaly.
+ep336_c1_f0136,336,camera1_rgb,False,-0.0585,dark_pixel_ratio=0.25,Statistical IQR anomaly: dark_pixel_ratio=0.25,Manual inspection recommended for severe photometric anomaly.
+ep336_c1_f0222,336,camera1_rgb,False,-0.0815,dark_pixel_ratio=0.2305,Statistical IQR anomaly: dark_pixel_ratio=0.2305,Manual inspection recommended for severe photometric anomaly.
+ep340_c1_f0059,340,camera1_rgb,False,-0.0293,dark_pixel_ratio=0.2788,Statistical IQR anomaly: dark_pixel_ratio=0.2788,Manual inspection recommended for severe photometric anomaly.
+ep340_c1_f0158,340,camera1_rgb,False,-0.033,dark_pixel_ratio=0.269,Statistical IQR anomaly: dark_pixel_ratio=0.269,Manual inspection recommended for severe photometric anomaly.
+ep340_c1_f0258,340,camera1_rgb,False,-0.0587,dark_pixel_ratio=0.2643,Statistical IQR anomaly: dark_pixel_ratio=0.2643,Manual inspection recommended for severe photometric anomaly.
+ep344_c1_f0053,344,camera1_rgb,False,-0.036,dark_pixel_ratio=0.2746,Statistical IQR anomaly: dark_pixel_ratio=0.2746,Manual inspection recommended for severe photometric anomaly.
+ep344_c1_f0142,344,camera1_rgb,False,-0.0277,dark_pixel_ratio=0.2659,Statistical IQR anomaly: dark_pixel_ratio=0.2659,Manual inspection recommended for severe photometric anomaly.
+ep344_c1_f0231,344,camera1_rgb,False,-0.0341,dark_pixel_ratio=0.2839,Statistical IQR anomaly: dark_pixel_ratio=0.2839,Manual inspection recommended for severe photometric anomaly.
+ep348_c1_f0048,348,camera1_rgb,False,-0.0447,dark_pixel_ratio=0.2713,Statistical IQR anomaly: dark_pixel_ratio=0.2713,Manual inspection recommended for severe photometric anomaly.
+ep348_c1_f0130,348,camera1_rgb,False,-0.0255,dark_pixel_ratio=0.2724,Statistical IQR anomaly: dark_pixel_ratio=0.2724,Manual inspection recommended for severe photometric anomaly.
+ep348_c1_f0211,348,camera1_rgb,False,-0.0469,dark_pixel_ratio=0.2689,Statistical IQR anomaly: dark_pixel_ratio=0.2689,Manual inspection recommended for severe photometric anomaly.
+ep352_c1_f0040,352,camera1_rgb,False,-0.0489,dark_pixel_ratio=0.2724,Statistical IQR anomaly: dark_pixel_ratio=0.2724,Manual inspection recommended for severe photometric anomaly.
+ep352_c1_f0107,352,camera1_rgb,False,-0.0486,dark_pixel_ratio=0.2707,Statistical IQR anomaly: dark_pixel_ratio=0.2707,Manual inspection recommended for severe photometric anomaly.
+ep352_c1_f0174,352,camera1_rgb,False,-0.0508,dark_pixel_ratio=0.2661,Statistical IQR anomaly: dark_pixel_ratio=0.2661,Manual inspection recommended for severe photometric anomaly.
+ep356_c1_f0268,356,camera1_rgb,False,-0.0755,dark_pixel_ratio=0.2044,Statistical IQR anomaly: dark_pixel_ratio=0.2044,Manual inspection recommended for severe photometric anomaly.
+ep360_c1_f0244,360,camera1_rgb,False,-0.0697,dark_pixel_ratio=0.1959,Statistical IQR anomaly: dark_pixel_ratio=0.1959,Manual inspection recommended for severe photometric anomaly.
+ep362_c0_f0222,362,camera0_rgb,False,-0.0934,std_intensity=54.21,Statistical IQR anomaly: std_intensity=54.21,Manual inspection recommended for severe photometric anomaly.
+ep372_c1_f0248,372,camera1_rgb,False,-0.0971,std_intensity=54.21,Statistical IQR anomaly: std_intensity=54.21,Manual inspection recommended for severe photometric anomaly.
+ep376_c0_f0237,376,camera0_rgb,False,-0.1315,std_intensity=53.86,Statistical IQR anomaly: std_intensity=53.86,Manual inspection recommended for severe photometric anomaly.
+ep402_c0_f0276,402,camera0_rgb,False,-0.1025,sat_pixel_ratio=0.0028,Statistical IQR anomaly: sat_pixel_ratio=0.0028,Manual inspection recommended for severe photometric anomaly.
+ep406_c0_f0323,406,camera0_rgb,False,-0.056,sat_pixel_ratio=0.0039,Statistical IQR anomaly: sat_pixel_ratio=0.0039,Manual inspection recommended for severe photometric anomaly.
+ep408_c0_f0302,408,camera0_rgb,False,-0.0901,sat_pixel_ratio=0.0031,Statistical IQR anomaly: sat_pixel_ratio=0.0031,Manual inspection recommended for severe photometric anomaly.
+ep408_c1_f0302,408,camera1_rgb,False,-0.0774,dark_pixel_ratio=0.041,Statistical IQR anomaly: dark_pixel_ratio=0.041,Manual inspection recommended for severe photometric anomaly.
+ep410_c0_f0273,410,camera0_rgb,False,-0.0458,sat_pixel_ratio=0.0041,Statistical IQR anomaly: sat_pixel_ratio=0.0041,Manual inspection recommended for severe photometric anomaly.
+ep412_c1_f0262,412,camera1_rgb,False,-0.1109,dark_pixel_ratio=0.0497,Statistical IQR anomaly: dark_pixel_ratio=0.0497,Manual inspection recommended for severe photometric anomaly.
+ep414_c0_f0260,414,camera0_rgb,False,-0.1023,sat_pixel_ratio=0.0027,Statistical IQR anomaly: sat_pixel_ratio=0.0027,Manual inspection recommended for severe photometric anomaly.
+ep418_c0_f0258,418,camera0_rgb,False,-0.0965,sat_pixel_ratio=0.0027,Statistical IQR anomaly: sat_pixel_ratio=0.0027,Manual inspection recommended for severe photometric anomaly.
+ep420_c0_f0240,420,camera0_rgb,False,-0.0613,sat_pixel_ratio=0.004,Statistical IQR anomaly: sat_pixel_ratio=0.004,Manual inspection recommended for severe photometric anomaly.
+ep426_c0_f0239,426,camera0_rgb,False,-0.0506,sat_pixel_ratio=0.0037,Statistical IQR anomaly: sat_pixel_ratio=0.0037,Manual inspection recommended for severe photometric anomaly.
+ep432_c0_f0228,432,camera0_rgb,False,-0.1059,sat_pixel_ratio=0.0029,Statistical IQR anomaly: sat_pixel_ratio=0.0029,Manual inspection recommended for severe photometric anomaly.
+ep450_c0_f0179,450,camera0_rgb,False,-0.0809,sat_pixel_ratio=0.0031,Statistical IQR anomaly: sat_pixel_ratio=0.0031,Manual inspection recommended for severe photometric anomaly.

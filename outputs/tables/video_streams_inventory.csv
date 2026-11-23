@@ -1,0 +1,5 @@
+path,camera_stream,chunk,file_name,frame_count,width,height,aspect_ratio,fps,fourcc,size_mb
+videos\observation.images.camera0_rgb\chunk-000\file-000.mp4,observation.images.camera0_rgb,chunk-000,file-000.mp4,142472,224,224,1.0,30.0,h264,199.58
+videos\observation.images.camera0_rgb\chunk-000\file-001.mp4,observation.images.camera0_rgb,chunk-000,file-001.mp4,42686,224,224,1.0,30.0,h264,58.17
+videos\observation.images.camera1_rgb\chunk-000\file-000.mp4,observation.images.camera1_rgb,chunk-000,file-000.mp4,185158,224,224,1.0,30.0,h264,172.7
+videos\observation.images.camera1_rgb\chunk-000\file-001.mp4,observation.images.camera1_rgb,chunk-000,file-001.mp4,15386,224,224,1.0,30.0,AV01,30.24

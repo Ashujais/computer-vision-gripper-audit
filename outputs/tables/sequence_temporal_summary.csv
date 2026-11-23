@@ -1,0 +1,11 @@
+metric,value
+Total Episodes,453
+Total Frames (ep0),185158
+Total Duration (hours),1.714
+Min Episode Length (frames),248
+Max Episode Length (frames),870
+Mean Episode Length (frames),408.74
+Timestamp Reversals,0
+Dropped Frame Gaps,0
+Sync Diff Pre-Split (sec),0.0
+Split Timestamp Mismatch Detected,True

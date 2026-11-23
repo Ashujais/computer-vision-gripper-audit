@@ -1,0 +1,85 @@
+# ==============================================================================
+# Gripper Dataset Quality Assessment & Pose Estimation Suitability Audit Config
+# ==============================================================================
+
+dataset:
+  name: "mv-umi-markers-placement"
+  root_path: "mv-umi-markers-placement"
+  format: "lerobot_v3"
+  fps: 30
+  cameras:
+    - "camera0_rgb" # Gripper-mounted camera (wrist/forward-facing)
+    - "camera1_rgb" # External third-person camera (side-facing)
+  expected_resolution: [224, 224]
+
+sampling:
+  # Enable systematic stratified sampling for high-throughput CV processing
+  enable_sampling: true
+  episodes_step: 2             # Sample across all episodes
+  frames_per_episode: 3        # Frames sampled across quartiles
+  deep_dive_episodes: [0, 30, 59, 100, 200, 350]
+
+thresholds:
+  image_quality:
+    blur_laplacian:
+      critical: 30.0
+      poor: 80.0
+      acceptable: 200.0
+      good: 350.0
+    exposure:
+      underexposed_mean: 40.0
+      overexposed_mean: 215.0
+      dark_pixel_thresh: 15
+      dark_pixel_ratio_max: 0.35
+      sat_pixel_thresh: 245
+      sat_pixel_ratio_max: 0.15
+    contrast:
+      min_std: 25.0
+      min_rms_contrast: 0.12
+    noise:
+      high_noise_sigma: 18.0
+
+  marker_detection:
+    expected_count: 2 # Left and right flap markers
+    dictionaries:
+      - "DICT_4X4_50"
+      - "DICT_5X5_50"
+      - "DICT_6X6_250"
+      - "DICT_APRILTAG_36h11"
+      - "DICT_APRILTAG_16h5"
+    detector_params:
+      minMarkerPerimeterRate: 0.01
+      maxMarkerPerimeterRate: 4.0
+      polygonalApproxAccuracyRate: 0.05
+    flap_rois:
+      # In 224x224 camera0_rgb
+      left_flap: [120, 0, 224, 112]    # [y1, x1, y2, x2]
+      right_flap: [120, 112, 224, 224] # [y1, x1, y2, x2]
+
+  duplicate_detection:
+    phash_threshold: 4   # Hamming distance <= 4 is near-duplicate
+    dhash_threshold: 4
+    ahash_threshold: 4
+
+  outlier_detection:
+    contamination: 0.03
+    iqr_multiplier: 1.5
+
+scoring:
+  weights:
+    file_integrity: 0.20
+    sharpness: 0.25
+    exposure_contrast: 0.20
+    marker_visibility: 0.35
+  categories:
+    pass_threshold: 80.0
+    pass_with_warnings_threshold: 60.0
+    review_required_threshold: 40.0
+
+output_dirs:
+  reports: "outputs/reports"
+  figures: "outputs/figures"
+  visual_inspections: "outputs/visual_inspections"
+  tables: "outputs/tables"
+  flagged_samples: "outputs/flagged_samples"
+  audit_logs: "outputs/audit_logs"
